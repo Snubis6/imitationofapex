@@ -18,9 +18,14 @@
 nav{
     background-color: brown;
     display: flex;
+    align-items: center;
 }
+
 nav section.navb{
     height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
 }
 
 nav section a{
@@ -28,10 +33,12 @@ nav section a{
     color: wheat;
     display: inline-block;
     justify-content: center;
-    padding: 10px;
-    margin-top: 25px;
-    
-    
+    padding: 10px;   
+}
+
+.icon img{
+    align-items: center;
+    margin-left: 25px;
 }
 
 
@@ -83,10 +90,12 @@ body
     .Hero_cards section{
         width: 60%;
     }
+    
+
 }
 @media only screen and (min-width: 1048px){
-.Hero_cards section{
-    width: 50%;
+    .Hero_cards section{
+        width: 50%;
     }
 }
 
