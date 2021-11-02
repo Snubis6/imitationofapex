@@ -79,7 +79,22 @@ body
 }   
 
 
+@media only screen and (min-width: 700px){
+    .Hero_cards section{
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1048px){
+.Hero_cards section{
+    width: 50%;
+    }
+}
 
+@media only screen and (min-width: 1424px){
+    .Hero_cards section{
+        width: 25%;
+    }
+}
 
 /* /////////////////FOOTER//////////////////////////////// */
 .footer{
@@ -90,84 +105,5 @@ body
     text-align: center;
     color: white;
     background-color: black;
-}
-
-.menubutton{
-    text-align:center;
-    display:flex;
-    align-items:center;
-    padding:10px;
-    background-color:teal;
-    width:100px;
-    text-transform:uppercase;
-    text-decoration:none;
-    color:white;
-    border-radius:5px;
-}
-#mobilenav{
-    display:flex;
-    flex-direction:column;
-}
-#mobilenav a{
-    width:100%;
-    display:flex;
-    justify-content:center;
-    padding-top:10px;
-    padding-bottom:10px;
-    border-bottom:1px solid gray;
-    
-    text-decoration: none;
-    color: blue;
-}
-
-nav#largemenu a{
-    margin-right:10px;
-    color:olive;
-    font-size:15pt;
-    text-decoration:none;
-}
-nav a:hover{
-    color:peru;
-}
-nav#mobilenav a:hover{
-    color:peru;
-}
-
-@media only screen and (min-width: 900px){
-    .Hero_cards section{
-        width: 60%;
-    }
-    #largemenu{
-        display:none;
-    }
-    .menubutton, #mobilenav{
-        display:block;
-    }
-
-
-
-}
-@media only screen and (min-width: 945px){
-    .Hero_cards section{
-    width: 50%;
-    }
-    #largemenu{
-        display:block;
-    }
-    .menubutton, #mobilenav{
-        display:none;
-    }
-}
-
-@media only screen and (max-width: 1424px){
-    .Hero_cards section{
-        width: 25%;
-    }
-    #largemenu{
-        display:block;
-    }
-    .menubutton, #mobilenav{
-        display:none;
-    }
 }
 
